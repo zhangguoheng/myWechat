@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<!--
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+-->
+
+<view class='container' >
+
+  <view class='index-hd'>
+  <image class='index-image' src='image/index.png'></image>
+  
+  </view>
+  
+  <view class='index-content'>
+
+    <view class='index-item1' bindtap='woyaobaoan' >
+      <view class='index-item' >
+          <text class='font-style'>我要报案</text>
+          <text class='font-style1'>一键报案 限时赔付</text>
+      </view>
+      <view class='index-item'>
+          <image mode='aspectFit' class='index-imagebaoan' src='image/baoan.png'></image>
+      </view>
+    </view>
+
+    <view class='index-item2'>
+        <view class='index-item2-item1' bindtap='shipinchakan' >
+            <text class='font-style'>实时查勘</text>
+            <text class='font-style1'>快速定损</text>
+            <text class='font-style1'>实时视频</text>
+            <image class='index-imagebaoan' mode='aspectFit' src='image/jiuyuan.png' ></image>
+        </view>
+        <view class='index-item2-item2' bindtap='caseinfo'>
+            <text class='font-style'>查询案件</text>
+            <text class='font-style1'>快速报案</text>
+            <text class='font-style1'>急速赔付</text>
+            <image class='index-imagebaoan' mode='aspectFit' src='image/chaxun.png' ></image>
+        </view>
+    </view>
+  </view>
+</view>

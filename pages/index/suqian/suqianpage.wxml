@@ -1,0 +1,25 @@
+<!--pages/index/suqian/suqianpage.wxml-->
+<view class='suqian'>
+  <form bindsubmit='shenqing' data-statu='open'>
+    <view class='index-button-view'>
+      <button class='index-button' form-type='submit'>开始连接</button>
+    </view>
+  </form>
+</view>
+<view class="drawer_screen"  data-statu="close" wx:if="{{showModalStatus}}"></view>  
+<view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
+  <view class='zhanwei'></view>
+  <view class='drawer_color_box' >
+      <view class="{{color_view[0]}}"></view>
+      <view class="{{color_view[1]}}"></view>
+      <view class="{{color_view[2]}}"></view>
+      <view class="{{color_view[3]}}"></view>
+      <view class="{{color_view[4]}}"></view>
+      <view class="{{color_view[5]}}"></view>
+      <view class="{{color_view[6]}}"></view>
+      <view class="{{color_view[7]}}"></view>
+  </view>
+  <view class='tooltip'>正在连接</view>
+  <view class='tool-button-view'><button class='index-button' bindtap="stopshenqin" data-statu='close'>取消</button></view>
+  <view class='zhanwei'></view>
+</view>

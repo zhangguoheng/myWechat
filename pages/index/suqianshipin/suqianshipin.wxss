@@ -1,0 +1,62 @@
+/* pages/index/suqianshipin/suqianshipin.wxss */
+
+.scrren{
+   width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+}
+
+
+.local{
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+
+.remote{
+  width: 40%;
+  height: 25%;
+  top: 0;
+  left: 0;
+  position: fixed;  
+}
+
+.remote-view{
+  width: 100%;
+  height: 100%;
+}
+
+.toolbar-chonghu{
+  position: absolute;
+  bottom: 30rpx;
+  left: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolbar-guaduan{
+  position: absolute;
+  bottom: 30rpx;
+  left: 325rpx;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolbar-qiehuan{
+ position: absolute;
+  bottom: 30rpx;
+  left: 630rpx;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

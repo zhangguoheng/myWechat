@@ -1,0 +1,117 @@
+/* pages/index/suqian/suqianpage.wxss */
+
+.suqian{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: "#fff";
+} 
+
+.index-item{
+  width: 100%;
+  height: 150rpx;
+  display:flex;
+  flex-direction:row;
+  background: green;
+}
+
+.index-item2-item1{
+  width: 20%;
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.index-item2-item2{
+  width: 80%;
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.index-button-view{
+  width: 100%;
+}
+
+.index-button{
+  background: rgba(0, 162, 255, 0.63);
+}
+
+.drawer_screen {  
+  width: 100%;  
+  height: 100%;  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  z-index: 1000;  
+  background: black;  
+  opacity: 0.5;  
+  overflow: hidden;  
+}  
+  
+/*content*/  
+.drawer_box {  
+  width: 650rpx;  
+  overflow: hidden;  
+  position: fixed;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;  
+  left: 0;  
+  z-index: 1001;  
+  background: #FAFAFA;  
+  margin: -150px 50rpx 0 50rpx;  
+  border-radius: 3px;  
+}  
+
+.drawer_color_box{
+  width: 300rpx;
+  height: 30rpx;
+  display: flex;
+  justify-content: space-around;
+  background: white; 
+  padding: 5rpx;
+  margin: 100 rps;
+}
+
+.drawer_color_box_item1{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  background: green;
+  border-radius: 5px;
+}
+
+.drawer_color_box_item2{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  background: black;
+  border-radius: 5px;
+}
+
+.tool-button-view{
+  width: 60%;
+}
+
+.tooltip{
+
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zhanwei{
+  width: 100%;
+  height: 50rpx;
+}

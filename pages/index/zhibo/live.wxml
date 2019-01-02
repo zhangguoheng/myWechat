@@ -1,0 +1,7 @@
+<view class='suqian'>
+  <form bindsubmit='shenqing' data-statu='open'>
+    <view class='index-button-view'>
+      <button class='index-button' form-type='submit'>开始连接</button>
+    </view>
+  </form>
+</view>

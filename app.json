@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/zhibo/live",
+    "pages/index/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "直播连接",
+    "navigationBarTextStyle": "black"
+  }
+}

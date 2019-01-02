@@ -1,0 +1,20 @@
+<!--pages/index/shipin/shipingchakan.wxml-->
+<view class="page">
+    <view class="page_images  line">
+        <!--推流-->    
+        <view class="section">
+            <view class="flex-wrp" style="flex-direction:row;justify-content: center;">
+                <!--拉取本人视频流，地址为同推流地址-->
+                <live-player class="flex-player"  id="player1" src="rtmp://58.240.173.169:1935/live/ttt" orientation="horizontal" bindstatechange="stateChange" mode="SD" object-fit="fillCrop" max-cache="1"></live-player>
+                <view class="flex-item" style='background:green;'></view>
+                 <!--拉取查勘员视频流，地址为后台PC段地址，或者查勘员app端推流地址-->
+                <live-pusher class="flex-player"  id="pusher" url="rtmp://58.240.173.169:1935/live/ddd" bindstatechange="stateChange" mode="RTC" orientation="horizontal" max-bitrate="512" enable-camera='false'></live-pusher>
+            </view>
+        </view>
+    </view>
+    <view class="page_images line" >
+        <button bindtap='startTalk'>开始对话</button>
+        <button bindtap='stopTalk'>终止对话</button>
+        <button bindtap='switchCamera'>切换摄像头</button>
+    </view>
+</view>

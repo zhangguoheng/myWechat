@@ -1,0 +1,12 @@
+<!--pages/index/caseinfo/caseinfopage.wxml-->
+
+<view> 车牌号：苏E12345 </view>
+<view> 出险情况：单车 </view>
+<view> 受损情况：保险杠破损 </view>
+<view> 维修方式：置换 </view>
+<view> 定损金额：300 </view>
+<vide>客户如果对定损无意义请选择接受，否则请选择拒绝</vide>
+<view>
+  <button bindtap='startTalk'>接受</button>
+  <button bindtap='startTalk'>拒绝</button>
+</view>

@@ -1,0 +1,43 @@
+<!--pages/index/baoan/woyaobaoan.wxml-->
+<view class='container' >
+
+  <view class='index-item'>
+    <view class='index-item2-item1'>车牌号:</view>
+    <view class='index-item2-item2'><input  maxlength="10" placeholder="苏E12345" /></view>    
+  </view>
+
+  <view class='index-item'>
+    <view class='index-item2-item1'>是否事故现场:</view>
+    <view class='index-item2-item2'><input  maxlength="10" placeholder="是" /></view>    
+  </view>
+
+  <view class='index-item'>
+    <view class='index-item2-item1'>出险地点:</view>
+    <view class='index-item2-item2'><input  maxlength="10" placeholder="苏州市" /></view>    
+  </view>
+
+  <view class='index-item'>
+    <view class='index-item2-item1'>出险情况:</view>
+    <view class='index-item2-item2'><input  maxlength="10" placeholder="单车 有人伤" /></view>    
+  </view>
+
+  <view class='index-item'>
+    <view class='index-item2-item1'>出险详情:</view>
+    <view class='index-item2-item2'><input  maxlength="10" placeholder="撞了墙" /></view>    
+  </view>
+
+   <view class='index-item'>
+    <view class='index-item2-item1'>报案人:</view>
+    <view class='index-item2-item2'><input  maxlength="10" placeholder="张三" /></view>    
+  </view>
+
+  <view class='index-item'>
+    <view class='index-item2-item1'>联系方式:</view>
+    <view class='index-item2-item2'><input  maxlength="10" placeholder="9999999999" /></view>    
+  </view>
+
+  <view class='index-button'>
+    <button bindtap='startTalk'>报案</button>
+  </view>
+
+</view>
