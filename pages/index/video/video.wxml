@@ -1,5 +1,5 @@
 <view class='scrren'>
-  <live-pusher class="remote"  id="pusher1" url="{{pushurl}}" mode="RTC" orientation="horizontal" max-bitrate="200" enable-camera="false" autopush='true'></live-pusher>
+  <!--<live-pusher class="remote"  id="pusher1" url="{{pushurl}}" mode="RTC" orientation="horizontal" max-bitrate="200" enable-camera="false" autopush='true'></live-pusher>-->
    <live-player class="local" id="player1" src="{{liveurl}}" orientation="horizontal" mode="RTC" object-fit="fillCrop">
    <cover-image class="toolbar-guaduan" bindtap='guaduan' src="../image/2.png"></cover-image>
    </live-player>
